@@ -31,6 +31,7 @@ WhatsNewKit
 
 <b>Instructions</b>
 
-<img src="https://github.com/obadasemary/WhatsNew/blob/master/WhatsNew/Assets.xcassets/Preview/whitePreview.imageset/whitepreview.jpg" alt="HTML5 Icon" width="576" height="598"><img src="https://github.com/obadasemary/WhatsNew/blob/master/WhatsNew/Assets.xcassets/Preview/darkPreview.imageset/darkPreview.jpg" alt="HTML5 Icon" width="576" height="598">
+<img src="https://github.com/obadasemary/WhatsNew/blob/master/WhatsNew/Assets.xcassets/Preview/whitePreview.imageset/whitepreview.jpg" alt="HTML5 Icon" width="576" height="598">
+<img src="https://github.com/obadasemary/WhatsNew/blob/master/WhatsNew/Assets.xcassets/Preview/darkPreview.imageset/darkPreview.jpg" alt="HTML5 Icon" width="576" height="598">
 
 
