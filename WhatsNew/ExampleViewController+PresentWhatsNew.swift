@@ -57,7 +57,7 @@ extension ExampleViewController {
         // MARK: Step 3: Initialize a WhatsNewViewController Configuration
         
         // Initialize WhatsNewViewController Configuration in order to customize the Layout and behaviour
-        var configuration = WhatsNewViewController.Configuration(
+        let configuration = WhatsNewViewController.Configuration(
             theme: .default,
             detailButton: .init(
                 // Detail Button Title
@@ -72,11 +72,6 @@ extension ExampleViewController {
                 action: .dismiss
             )
         )
-        
-//        // Example-Application specific in order to apply configurations that has been selected
-//        self.configurations.forEach {
-//            $0.configure(configuration: &configuration)
-//        }
         
         // MARK: Step 3: Initialize and present a WhatsNewViewController
         
