@@ -1,7 +1,7 @@
 # WhatsNew
 Showcase your awesome new app features 📱 https://sventiigi.github.io/WhatsNewKit/
 
-<img src="https://raw.githubusercontent.com/SvenTiigi/WhatsNewKit/gh-pages/readMeAssets/WhatsNewKit.gif" alt="HTML5 Icon" width="676" height="598">
+<img src="https://raw.githubusercontent.com/SvenTiigi/WhatsNewKit/gh-pages/readMeAssets/WhatsNewKit.gif" alt="HTML5 Icon" width="676" height="798">
 
 <b>How to build</b>
 <p>WhatsNew is available through CocoaPods. To install it, simply add the following line to your Podfile:</p>
