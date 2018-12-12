@@ -7,15 +7,38 @@
 //
 
 import UIKit
+import WhatsNewKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    /// The UINavigationController with ViewController as root viewcontroller
+    lazy var navigationController: UINavigationController = {
+        let navigationController = UINavigationController(rootViewController: ExampleViewController())
+        navigationController.navigationBar.prefersLargeTitles = true
+        navigationController.navigationBar.largeTitleTextAttributes = [
+            .foregroundColor: UIColor.main
+        ]
+        navigationController.view.backgroundColor = .white
+        navigationController.navigationBar.tintColor = .main
+        navigationController.navigationBar.titleTextAttributes = [
+            .foregroundColor: UIColor.main
+        ]
+        return navigationController
+    }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Initialize Window
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        // Set root viewcontroller
+        self.window?.rootViewController = self.navigationController
+        // Make key and visible
+        self.window?.makeKeyAndVisible()
+        
+        
         return true
     }
 

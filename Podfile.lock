@@ -1,0 +1,16 @@
+PODS:
+  - WhatsNewKit (1.1.3)
+
+DEPENDENCIES:
+  - WhatsNewKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WhatsNewKit
+
+SPEC CHECKSUMS:
+  WhatsNewKit: fa893666dd8dbbf4ded92c10d45526629d5cabf0
+
+PODFILE CHECKSUM: f289741a2c34cb68a80cc9340c9c4ace690fd34a
+
+COCOAPODS: 1.5.3
