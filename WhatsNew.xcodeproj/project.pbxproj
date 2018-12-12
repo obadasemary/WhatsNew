@@ -77,11 +77,11 @@
 				AF116B3E21C156B100D15E7E /* AppDelegate.swift */,
 				AF116B4021C156B100D15E7E /* ExampleViewController.swift */,
 				AF116B5321C1621000D15E7E /* ExampleViewController+PresentWhatsNew.swift */,
+				AF116B5121C161B900D15E7E /* UIColor+Main.swift */,
 				AF116B4221C156B100D15E7E /* Main.storyboard */,
 				AF116B4521C156B400D15E7E /* Assets.xcassets */,
 				AF116B4721C156B400D15E7E /* LaunchScreen.storyboard */,
 				AF116B4A21C156B400D15E7E /* Info.plist */,
-				AF116B5121C161B900D15E7E /* UIColor+Main.swift */,
 			);
 			path = WhatsNew;
 			sourceTree = "<group>";
